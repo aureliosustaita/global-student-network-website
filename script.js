@@ -1,29 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const themeButton = document.getElementById('theme-toggle-button');
-
-    if (themeButton) {  // Check if the button exists
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme) {
-            document.documentElement.setAttribute('data-theme', savedTheme);
-            themeButton.textContent = savedTheme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
-        } else {
-            localStorage.setItem('theme', 'light');
-            themeButton.textContent = 'Switch to Dark Mode';
-        }
-
-        themeButton.addEventListener('click', () => {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            document.documentElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            themeButton.textContent = newTheme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
-            console.log('Theme changed to:', newTheme);
-        });
-    } else {
-        console.error("Theme toggle button not found!");
-    }
-});
-
 // Define allowed patterns
 const namePattern = /^[a-zA-Z\s]*$/;       // Only letters and spaces
 const subjectPattern = /^[a-zA-Z\s]*$/;    // Only letters and spaces
