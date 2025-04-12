@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="converted into single page website">
+    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="updating images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -118,15 +118,7 @@
       <workItem from="1741392232864" duration="4705000" />
       <workItem from="1741572308294" duration="52895000" />
       <workItem from="1744265295683" duration="10975000" />
-      <workItem from="1744429044444" duration="1731000" />
-    </task>
-    <task id="LOCAL-00013" summary="index.html, figuring out flexbox">
-      <option name="closed" value="true" />
-      <created>1739252753693</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1739252753693</updated>
+      <workItem from="1744429044444" duration="6106000" />
     </task>
     <task id="LOCAL-00014" summary="updated home page:&#10;added mission statement">
       <option name="closed" value="true" />
@@ -512,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744315071849</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="updating images">
+      <option name="closed" value="true" />
+      <created>1744430969297</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1744430969298</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="index.html, figuring out flexbox" />
     <MESSAGE value="updated home page:&#10;added mission statement" />
     <MESSAGE value="-home" />
     <MESSAGE value="added sticky navigation bar&#10;fixed column flex of body" />
@@ -555,6 +554,7 @@
     <MESSAGE value="CustomElement Creation" />
     <MESSAGE value="Removed dark theme" />
     <MESSAGE value="converted into single page website" />
-    <option name="LAST_COMMIT_MESSAGE" value="converted into single page website" />
+    <MESSAGE value="updating images" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating images" />
   </component>
 </project>

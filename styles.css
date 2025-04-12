@@ -44,18 +44,18 @@ body {
     font-family: 'Times New Roman', serif;
     align-items: flex-start;
 }
-/* index page */
-.container {
-    position: absolute;
+.welcome-section {
+    position: relative;
+    /*position: absolute;*/
     display: flex;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
     height: 100vh;
-    background-color: var(--index-navbar-color);
+    background-color: #F0FAFB;
 }
 .navbar {
-    z-index: 10;
+    z-index: 1000;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -144,36 +144,32 @@ body {
     transition: transform 0.3s ease-in-out;
     background-color: color-mix(in srgb, var(--logo-animation-color) 80%, white);
 }
-.container-2 {
+.mission-section {
     display: flex;
-    width: 100%;
     flex-direction: row;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 18%;
-    gap: 15vh;
-}
-.graphic path {
-    fill: var(--index-section1-graphic-color);
-    stroke: var(--index-section1-graphic-color);
+    background-color: #F0FAFB;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    gap: 5%;
 }
 #mission {
-    color: var(--index-section1-color1);
+    color: #003B5C;
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     font-size: 64px;
     text-align: center;
-    width: 45%
+    width: 70%;
 }
 #mission-statement {
-    color: var(--index-section1-color2);
+    color: #555555;
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     font-size: 30px;
     text-align: center;
-    width: 45%;
+    width: 70%;
 }
-.vision-container {
+.vision-section {
     display: flex;
     justify-content: center;
     align-items: center;
