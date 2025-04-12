@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="Removed dark theme">
+    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="converted into single page website">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -34,12 +33,12 @@
     &quot;assignee&quot;: &quot;aureliosustaita&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aureliosustaita/global-student-network-website.git",
-    "accountId": "a7c7a920-8f92-43db-9521-513e53cef75e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aureliosustaita/global-student-network-website.git&quot;,
+    &quot;accountId&quot;: &quot;a7c7a920-8f92-43db-9521-513e53cef75e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -118,15 +117,8 @@
       <workItem from="1741219502370" duration="5524000" />
       <workItem from="1741392232864" duration="4705000" />
       <workItem from="1741572308294" duration="52895000" />
-      <workItem from="1744265295683" duration="10270000" />
-    </task>
-    <task id="LOCAL-00012" summary="+styles.css">
-      <option name="closed" value="true" />
-      <created>1738957437129</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1738957437129</updated>
+      <workItem from="1744265295683" duration="10975000" />
+      <workItem from="1744429044444" duration="1731000" />
     </task>
     <task id="LOCAL-00013" summary="index.html, figuring out flexbox">
       <option name="closed" value="true" />
@@ -512,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744268521117</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="converted into single page website">
+      <option name="closed" value="true" />
+      <created>1744315071849</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1744315071849</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+styles.css" />
     <MESSAGE value="index.html, figuring out flexbox" />
     <MESSAGE value="updated home page:&#10;added mission statement" />
     <MESSAGE value="-home" />
@@ -555,6 +554,7 @@
     <MESSAGE value="new UI Laptop Version&#10;--reduce redundant css lines&#10;--improved flexbox usage&#10;--UCLA Policy 863 on Filming and Photography on Campus, required me to have permission from UCLA to use campus images. &#10;--removed UCLA images and replaced with images photographed by me" />
     <MESSAGE value="CustomElement Creation" />
     <MESSAGE value="Removed dark theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed dark theme" />
+    <MESSAGE value="converted into single page website" />
+    <option name="LAST_COMMIT_MESSAGE" value="converted into single page website" />
   </component>
 </project>
