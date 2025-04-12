@@ -11,8 +11,8 @@
 <nav class="navbar">
     <img src="media/gsn_logo.svg" alt="Global Student Network Brand Logo" class="gsn-logo">
     <ul>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+        <li><a href="#about-section">About</a></li>
         <img src="media/instagram_logo.svg" alt="Instagram Brand Logo" class="instagram-logo">
     </ul>
 </nav>
@@ -38,34 +38,68 @@
     </div>
 </section>
 <section class="vision-section">
-    <img src="media/icon1-2.png" alt="Bird flying in the sky" class="icon-1">
+    <img src="media/ucla-icon1.png" alt="a ucla campus sign that says welcome bruins" class="icon-1">
     <p id="vision-statement">The vision of the Global Student Network is
         to promote the exchange and encouragement of
         cultural and intellectual diversity. We will
         motivate and equip members with the necessary
         skills to become effective and productive citizens
         of an increasingly diverse and globalized society.</p>
-    <img src="media/icon2-2.png" alt="Bird flying in the sky" class="icon-2">
+    <img src="media/ucla-icon2.png" alt="a ucla campus sign that says go bruins" class="icon-2">
 </section>
-<!--<section class="animated-container">-->
-<!--    <h1>Milo Gazivoda</h1>-->
-<!--    <h2>President of Global Student Network</h2>-->
-<!--</section>-->
-<!--<section class="president-container">-->
-<!--    <div class="picture-box">Picture of President</div>-->
-<!--    <div class="quote-box">-->
-<!--        <p>“My goal is thaet GSN provides concrete and practical-->
-<!--            solutions to pressing global challenges. Sustainable-->
-<!--            industrial development can deliver a world without hunger,-->
-<!--            using sustainable energy for productive activities,-->
-<!--            and creating jobs, particularly for young people.” </p>-->
-<!--    </div>-->
-<!--</section>-->
+<section class="president-section">
+    <h1>Milo Gazivoda</h1>
+    <h2>President of Global Student Network</h2>
+</section>
+<section class="president-section2">
+    <div class="picture-box">Picture of President</div>
+    <div class="quote-box">
+        <p>“My goal is that GSN provides concrete and practical
+            solutions to pressing global challenges. Sustainable
+            industrial development can deliver a world without hunger,
+            using sustainable energy for productive activities,
+            and creating jobs, particularly for young people.” </p>
+    </div>
+</section>
 
-<!--<h1>meet the team</h1>-->
-<!--<h1>contact form</h1>-->
+<section id="about-section">
+    <h1>meet the team</h1>
+</section>
 
-<hr>
+<section id="contact-section">
+    <h1 class="contact-title">contact us</h1>
+    <form action="https://httpbin.org/post" method="post" class="contact-form">
+        <input type="hidden" name="possible_bot" value="true">
+        <input type="hidden" name="form-errors" id="form-errors">
+
+        <label for="name">NAME *</label>
+        <input id="name" type="text" name="name" maxlength="30" required>
+        <output id="name-error" class="error">This field is required.</output>
+
+        <label for="email">EMAIL *</label>
+        <input id="email" type="email" name="email" required>
+        <output id="email-error" class="error">This field is required.</output>
+
+        <label for="phone">PHONE *</label>
+        <input id="phone" type="tel" name="phone" required pattern="[0-9]{10}">
+        <output id="phone-error" class="error">This field is required.</output>
+
+        <label for="subject">SUBJECT *</label>
+        <input id="subject" type="text" name="subject" maxlength="30" required>
+        <output id="subject-error" class="error">This field is required.</output>
+
+        <label for="message">MESSAGE *</label>
+        <input id="message" type="text" name="message" maxlength="400" required>
+        <output id="message-error" class="error">This field is required.</output>
+
+        <button type="submit" class="send-button">SEND</button>
+    </form>
+</section>
+
+<section id="value-section">
+</section>
+<section id="miscellaneous-section">
+</section>
 <footer>
     <p>&copy; 2025 Global Student Network. All rights reserved.</p>
 </footer>

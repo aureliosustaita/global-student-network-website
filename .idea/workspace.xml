@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="updating images">
+    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="updating sections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/graphic1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icon1-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/icon2-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,15 +124,7 @@
       <workItem from="1741392232864" duration="4705000" />
       <workItem from="1741572308294" duration="52895000" />
       <workItem from="1744265295683" duration="10975000" />
-      <workItem from="1744429044444" duration="6106000" />
-    </task>
-    <task id="LOCAL-00014" summary="updated home page:&#10;added mission statement">
-      <option name="closed" value="true" />
-      <created>1739483825000</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1739483825000</updated>
+      <workItem from="1744429044444" duration="12387000" />
     </task>
     <task id="LOCAL-00015" summary="-home">
       <option name="closed" value="true" />
@@ -512,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744430969298</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="updating sections">
+      <option name="closed" value="true" />
+      <created>1744435182892</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1744435182893</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated home page:&#10;added mission statement" />
     <MESSAGE value="-home" />
     <MESSAGE value="added sticky navigation bar&#10;fixed column flex of body" />
     <MESSAGE value="added redirect links to instagram and login logo" />
@@ -555,6 +560,7 @@
     <MESSAGE value="Removed dark theme" />
     <MESSAGE value="converted into single page website" />
     <MESSAGE value="updating images" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating images" />
+    <MESSAGE value="updating sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating sections" />
   </component>
 </project>
