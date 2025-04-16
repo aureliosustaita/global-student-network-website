@@ -101,44 +101,13 @@ body {
 .hero-text span {
     color: var(--index-hero-text-color);
 }
-.content-overlay {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.right-icons {
-    cursor: pointer;
-    margin-top: 20px;
-    margin-right: 60px;
-}
-.logo {
-    /*z-index: 2;*/
-    width: 175px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 60px;
-}
-.logo:hover {
-    cursor: pointer;
-}
+
 .social-icon {
     width: 56px;
     height: 56px;
     border-radius: 30px;
 }
 .social-icon:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
-    transform: scale(1.1); /* Slightly enlarges the icon */
-    transition: transform 0.3s ease-in-out;
-    background-color: color-mix(in srgb, var(--logo-animation-color) 80%, white);
-}
-.login-icon {
-    width: 100px;
-    height: 56px;
-    margin-left: 20px;
-    border-radius: 24px;
-}
-.login-icon:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
     transform: scale(1.1); /* Slightly enlarges the icon */
     transition: transform 0.3s ease-in-out;
@@ -196,7 +165,7 @@ body {
     transform: translate(-120px, 180px);
     z-index: 1;
 }
-.president-section {
+.president-introduction-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,21 +173,21 @@ body {
     width: 100%;
     height: 65vh;
 }
-.president-section h1 {
+.president-introduction-section h1 {
     text-align: center;
     font-size: 62px;
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     color: #555555;
 }
-.president-section h2 {
+.president-introduction-section h2 {
     text-align: center;
     font-size: 48px;
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     color: #555555;
 }
-.president-section2 {
+.president-section {
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -319,12 +288,6 @@ body {
     outline: none;
 }
 
-/* Error Text Styling */
-.error {
-    color: red;
-    font-size: 14px;
-}
-
 /* Submit Button */
 .send-button {
     align-self: flex-end;
@@ -344,8 +307,6 @@ body {
 }
 .error {
     color: red;
-    font-size: 14px;
-    display: none; /* Toggle on validation error */
 }
 
 /* Button */
@@ -375,7 +336,6 @@ body {
     height: 40vh;
     background-color: #F0FAFB;
 }
-
 hr {
     border: none;
     height: 1px;

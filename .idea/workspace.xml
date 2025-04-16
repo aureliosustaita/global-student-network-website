@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="updating sections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/graphic1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icon1-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/icon2-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/login.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,15 +119,8 @@
       <workItem from="1741392232864" duration="4705000" />
       <workItem from="1741572308294" duration="52895000" />
       <workItem from="1744265295683" duration="10975000" />
-      <workItem from="1744429044444" duration="12387000" />
-    </task>
-    <task id="LOCAL-00015" summary="-home">
-      <option name="closed" value="true" />
-      <created>1739657572785</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1739657572785</updated>
+      <workItem from="1744429044444" duration="13008000" />
+      <workItem from="1744761805083" duration="1466000" />
     </task>
     <task id="LOCAL-00016" summary="-home">
       <option name="closed" value="true" />
@@ -518,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744435182893</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="updating sections">
+      <option name="closed" value="true" />
+      <created>1744478357533</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1744478357534</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
