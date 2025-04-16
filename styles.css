@@ -1,37 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
-:root {
-    --background-color: #FFFFFF;
-    --navbar-text-color: #6A6A6A;
-    --footer-text-color: #6A6A6A;
-    --logo-animation-color: color(display-p3 0.0 0.3 0.7);
-    /*index page*/
-    --index-hero-text-color: #3370F6;
-    --index-navbar-color: #F0FAFB;
-    --index-section1-color1: #2874AE;
-    --index-section1-color2: #555555;
-    --index-section1-graphic-color: #FEDEDA;
-    --index-section2-color1: #FFFFFF;
-    --index-section2-background: #2874AE;
-    --index-section3-color1: #555555;
-    --index-section4-color1: #555555;
-    --index-section4-background: #DAEBFE;
 
-    --non-index-navbar-color: #FFFFFF;
-    --non-index-navbar-text-color: #6A6A6A;
-    /*contact page*/
-    --contact-color1: #FFFFFF;
-    --contact-form-input: #DAEBFE; /*form input*/
-    --contact-form-text: #6A6A6A; /*form text*/
-    --contact-background: #2874AE;
-    /*about page*/
-    --about-color1: #2874AE;
-    --about-color2: #555555;
-    /*!*login page*!*/
-    --login-text-color: #000000;
-    --login-input-color: #D9D9D9;
-}
 * {
     margin: 0;
     padding: 0;
