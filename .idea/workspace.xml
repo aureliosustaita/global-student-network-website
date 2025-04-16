@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="removing useless css">
+      <change afterPath="$PROJECT_DIR$/css/styles-min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,6 +74,7 @@
       <recent name="$PROJECT_DIR$/media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/media" />
     </key>
   </component>
@@ -119,23 +121,8 @@
       <workItem from="1741572308294" duration="52895000" />
       <workItem from="1744265295683" duration="10975000" />
       <workItem from="1744429044444" duration="13008000" />
-      <workItem from="1744761805083" duration="3236000" />
-    </task>
-    <task id="LOCAL-00017" summary="-home">
-      <option name="closed" value="true" />
-      <created>1739657982904</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1739657982904</updated>
-    </task>
-    <task id="LOCAL-00018" summary="added sticky navigation bar&#10;fixed column flex of body">
-      <option name="closed" value="true" />
-      <created>1739670603810</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1739670603810</updated>
+      <workItem from="1744761805083" duration="3460000" />
+      <workItem from="1744765548321" duration="2522000" />
     </task>
     <task id="LOCAL-00019" summary="added redirect links to instagram and login logo">
       <option name="closed" value="true" />
@@ -513,7 +500,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744763459881</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="removing useless css">
+      <option name="closed" value="true" />
+      <created>1744765200556</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1744765200556</updated>
+    </task>
+    <task id="LOCAL-00067" summary="removing useless css">
+      <option name="closed" value="true" />
+      <created>1744765266008</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1744765266008</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

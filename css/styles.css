@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +50,8 @@ body {
     flex-direction: column;
     width: 98%;
     height: 98%;
-    background-image: url('media/ucla-royce-hall.jpg');
+    /*https://www.reddit.com/r/ucla/comments/1ntzg4/my_roommate_got_a_new_3000_camera_and_took_this/*/
+    background-image: url('../media/ucla-royce-hall.jpg');
     border-radius: 0 0 24px 24px;
     background-size: cover;
     background-position: center;
@@ -194,7 +194,6 @@ body {
     margin-left: 5%;
     margin-top: 3%;
 }
-
 #contact-section {
     width: 100%;
     padding: 60px 0;
@@ -202,8 +201,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
-
 .contact-title {
     font-size: 40px;
     font-family: 'EB Garamond', serif;
@@ -213,8 +210,6 @@ body {
     width: 80%;
     max-width: 600px;
 }
-
-
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -222,8 +217,6 @@ body {
     width: 80%;
     font-family: 'EB Garamond', serif;
 }
-
-
 .contact-form label {
     font-size: 14px;
     font-weight: bold;
@@ -231,10 +224,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-
-
-.contact-form input
-{
+.contact-form input {
     border: none;
     border-bottom: 2px solid #00BCD4;
     background-color: transparent;
@@ -246,14 +236,10 @@ body {
     resize: none;
     box-shadow: none;
 }
-
-/* Focus Style */
 .contact-form input:focus {
     border-bottom: 2px solid #3370F6;
     outline: none;
 }
-
-
 .send-button {
     align-self: flex-end;
     background-color: #E0F0FF;
@@ -265,7 +251,6 @@ body {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-
 .send-button:hover {
     background-color: #3370F6;
     color: white;
@@ -273,7 +258,6 @@ body {
 .error {
     color: red;
 }
-
 #value-section {
     width: 100%;
     height: 10vh;
@@ -287,7 +271,7 @@ body {
 hr {
     border: none;
     height: 1px;
-    background-color: var(--footer-text-color);
+    background-color: #6A6A6A;
     width: 90%;
     margin: 0 auto;
 }
@@ -295,12 +279,11 @@ footer {
     text-align: center;
     width: 100%;
     padding: 20px;
-    color: var(--footer-text-color);
+    color: #6A6A6A;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Newsreader', serif;
 }
-
 /*mobile UI*/
 @media (max-width: 768px) {
     .contact-container {
