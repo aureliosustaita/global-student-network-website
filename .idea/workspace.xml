@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="updating sections">
+    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="removing useless css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/login.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,15 +119,7 @@
       <workItem from="1741572308294" duration="52895000" />
       <workItem from="1744265295683" duration="10975000" />
       <workItem from="1744429044444" duration="13008000" />
-      <workItem from="1744761805083" duration="1466000" />
-    </task>
-    <task id="LOCAL-00016" summary="-home">
-      <option name="closed" value="true" />
-      <created>1739657773187</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1739657773187</updated>
+      <workItem from="1744761805083" duration="3236000" />
     </task>
     <task id="LOCAL-00017" summary="-home">
       <option name="closed" value="true" />
@@ -514,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744478357534</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="removing useless css">
+      <option name="closed" value="true" />
+      <created>1744763459881</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1744763459881</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="-home" />
     <MESSAGE value="added sticky navigation bar&#10;fixed column flex of body" />
     <MESSAGE value="added redirect links to instagram and login logo" />
     <MESSAGE value="added footer" />
@@ -557,6 +555,7 @@
     <MESSAGE value="converted into single page website" />
     <MESSAGE value="updating images" />
     <MESSAGE value="updating sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating sections" />
+    <MESSAGE value="removing useless css" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing useless css" />
   </component>
 </project>
