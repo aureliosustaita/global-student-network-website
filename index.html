@@ -105,5 +105,23 @@
 <footer>
     <p>&copy; 2025 Global Student Network. All rights reserved.</p>
 </footer>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function() {
+        emailjs.init("XSYFG7MCuDThxfBgx");
+    })();
+
+    document.querySelector(".contact-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        emailjs.sendForm("service_a6l7dp9", "template_qa5zgyc", this)
+            .then(() => {
+                alert("✅ Message sent! We'll get back to you soon.");
+                this.reset();
+            }, (error) => {
+                alert("❌ Failed to send message. Please try again.\n" + JSON.stringify(error));
+            });
+    });
+</script>
 </body>
 </html>
