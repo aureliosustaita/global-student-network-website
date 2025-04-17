@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="removing useless css">
+    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="added emailJS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,15 +121,8 @@
       <workItem from="1744265295683" duration="10975000" />
       <workItem from="1744429044444" duration="13008000" />
       <workItem from="1744761805083" duration="3460000" />
-      <workItem from="1744765548321" duration="5323000" />
-    </task>
-    <task id="LOCAL-00020" summary="added footer">
-      <option name="closed" value="true" />
-      <created>1739727536929</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1739727536929</updated>
+      <workItem from="1744765548321" duration="5347000" />
+      <workItem from="1744913424499" duration="356000" />
     </task>
     <task id="LOCAL-00021" summary="added shadow animations to instagram and login icons">
       <option name="closed" value="true" />
@@ -514,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744773541551</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="added emailJS">
+      <option name="closed" value="true" />
+      <created>1744864799931</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1744864799931</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +534,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added sticky navigation bar&#10;fixed column flex of body" />
     <MESSAGE value="added redirect links to instagram and login logo" />
     <MESSAGE value="added footer" />
     <MESSAGE value="added shadow animations to instagram and login icons" />
@@ -557,6 +558,7 @@
     <MESSAGE value="updating images" />
     <MESSAGE value="updating sections" />
     <MESSAGE value="removing useless css" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing useless css" />
+    <MESSAGE value="added emailJS" />
+    <option name="LAST_COMMIT_MESSAGE" value="added emailJS" />
   </component>
 </project>

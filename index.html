@@ -87,7 +87,13 @@
         <output class="error">This field is required.</output>
 
         <label for="subject">SUBJECT *</label>
-        <input id="subject" type="text" name="subject" maxlength="30" required>
+<!--    <input id="subject" type="text" name="subject" maxlength="30" required>-->
+        <select id="subject" name="subject" required>
+            <option value="general" selected>General</option>
+            <option value="partnerships">Partnerships</option>
+            <option value="join">Join Us</option>
+            <option value="sponsorship">Sponsorship</option>
+        </select>
         <output class="error">This field is required.</output>
 
         <label for="message">MESSAGE *</label>
