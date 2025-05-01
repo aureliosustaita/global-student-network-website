@@ -19,9 +19,10 @@
     <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
 
     <div class="mobile-menu" id="mobileMenu">
-        <a href="#contact-section">Contact</a>
-        <a href="https://www.instagram.com/gsn.ucla/" target="_blank">Instagram</a>
+        <a href="#contact-section" onclick="toggleMenu()">Contact</a>
+        <a href="https://www.instagram.com/gsn.ucla/" target="_blank" onclick="toggleMenu()">Instagram</a>
     </div>
+
 
 </nav>
 <section class="welcome-section">
@@ -164,9 +165,22 @@
 </script>
 <script>
     function toggleMenu() {
-        document.getElementById("mobileMenu").classList.toggle("show");
+        const menu = document.getElementById('mobileMenu');
+        const button = document.querySelector('.hamburger-menu');
+
+        menu.classList.toggle('show');
+
+        // Toggle icon between ☰ and ✕
+        button.textContent = menu.classList.contains('show') ? '✕' : '☰';
+
+        // Optional: disable scroll when menu is open
+        document.body.style.overflow = menu.classList.contains('show') ? 'hidden' : '';
     }
 </script>
+
+
+
+
 
 </body>
 </html>
