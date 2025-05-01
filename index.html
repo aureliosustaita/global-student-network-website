@@ -11,12 +11,18 @@
 <nav class="navbar">
     <img src="media/gsn_logo.svg" alt="Global Student Network Brand Logo" class="gsn-logo">
     <ul>
-        <li><a href="#contact-section">Contact</a></li>
-        <li><a href="#about-section">About</a></li>
+        <li id="contact-link-item"><a href="#contact-section">Contact</a></li>
         <a href="https://www.instagram.com/gsn.ucla/" target="_blank" rel="noopener noreferrer">
             <img src="media/instagram_logo.svg" alt="Instagram Brand Logo" class="instagram-logo">
         </a>
     </ul>
+    <div class="hamburger-menu" onclick="toggleMenu()">☰</div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#contact-section">Contact</a>
+        <a href="https://www.instagram.com/gsn.ucla/" target="_blank">Instagram</a>
+    </div>
+
 </nav>
 <section class="welcome-section">
     <figure class="image-background">
@@ -54,7 +60,7 @@
     <h2>President of Global Student Network</h2>
 </section>
 <section class="president-section">
-    <div class="picture-box">Picture of President</div>
+    <img src="media/president-picture.jpeg" alt="self portrait of president of global student network" class="picture-box">
     <div class="quote-box">
         <p>“My goal is that GSN provides concrete and practical
             solutions to pressing global challenges. Sustainable
@@ -71,58 +77,96 @@
 
         <label for="name">NAME *</label>
         <input id="name" type="text" name="name" maxlength="30" required>
-        <output class="error">This field is required.</output>
+        <output id="name-error" class="error"></output>
 
         <label for="email">EMAIL *</label>
-        <input id="email" type="email" name="email" required>
-        <output class="error">This field is required.</output>
+        <input id="email" type="email" name="email" maxlength="50" required>
+        <output id="email-error" class="error"></output>
 
         <label for="phone">PHONE *</label>
-        <input id="phone" type="tel" name="phone" required pattern="[0-9]{10}">
-        <output class="error">This field is required.</output>
+        <input id="phone" type="tel" name="phone" maxlength="50" required>
+        <output id="phone-error" class="error"></output>
 
         <label for="subject">SUBJECT *</label>
-<!--    <input id="subject" type="text" name="subject" maxlength="30" required>-->
         <select id="subject" name="subject" required>
-            <option value="general" selected>General</option>
+            <option value="" disabled selected>Select a subject</option>
+            <option value="general">General</option>
             <option value="partnerships">Partnerships</option>
             <option value="join">Join Us</option>
             <option value="sponsorship">Sponsorship</option>
         </select>
-        <output class="error">This field is required.</output>
+        <output id="subject-error" class="error"></output>
 
         <label for="message">MESSAGE *</label>
         <input id="message" type="text" name="message" maxlength="400" required>
-        <output class="error">This field is required.</output>
+        <output id="message-error" class="error"></output>
 
         <button type="submit" class="send-button">SEND</button>
     </form>
+
+</section>
+<!--<section id="value-section">-->
+<!--    <div class="hashtag-banner">-->
+<!--        <span>#UCLA #RESPECT #EMPOWERMENT #LEADERSHIP #INTEGRITY #PERSEVERANCE #RESPONSIBILITY #UNITY #EMPATHY #UCLA #RESPECT #EMPOWERMENT</span>-->
+<!--    </div>-->
+<!--</section>-->
+<section id="value-section" aria-label="Core Values">
+    <h2 class="visually-hidden">Core Values</h2>
+    <div class="hashtag-banner">
+        <div class="hashtag-track">
+            <p class="hashtag-slide">
+                #UCLA #RESPECT #EMPOWERMENT #LEADERSHIP #INTEGRITY #PERSEVERANCE #RESPONSIBILITY #UNITY #EMPATHY
+            </p>
+            <p class="hashtag-slide">
+                #UCLA #RESPECT #EMPOWERMENT #LEADERSHIP #INTEGRITY #PERSEVERANCE #RESPONSIBILITY #UNITY #EMPATHY
+            </p>
+        </div>
+    </div>
 </section>
 
-<section id="value-section">
-</section>
+
 <section id="miscellaneous-section">
 </section>
 <footer>
     <p>&copy; 2025 Global Student Network. All rights reserved.</p>
 </footer>
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="script.js"></script>
+
 <script>
-    (function() {
-        emailjs.init("XSYFG7MCuDThxfBgx");
-    })();
+    emailjs.init("XSYFG7MCuDThxfBgx");
 
     document.querySelector(".contact-form").addEventListener("submit", function(e) {
         e.preventDefault();
+
+        const errorsVisible = Array.from(document.querySelectorAll(".error"))
+            .some(el => el.style.display === "block");
+
+        if (errorsVisible) {
+            alert("❌ Please fix the form errors before submitting.");
+            return;
+        }
 
         emailjs.sendForm("service_a6l7dp9", "template_qa5zgyc", this)
             .then(() => {
                 alert("✅ Message sent! We'll get back to you soon.");
                 this.reset();
+
+                // Optional: reset touched state so errors don’t show after reset
+                const fields = ["name", "email", "phone", "subject", "message"];
+                fields.forEach(id => {
+                    document.getElementById(id + "-error").style.display = "none";
+                });
             }, (error) => {
                 alert("❌ Failed to send message. Please try again.\n" + JSON.stringify(error));
             });
     });
 </script>
+<script>
+    function toggleMenu() {
+        document.getElementById("mobileMenu").classList.toggle("show");
+    }
+</script>
+
 </body>
 </html>

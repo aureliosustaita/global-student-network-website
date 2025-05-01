@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,15 +127,7 @@
       <workItem from="1745182702296" duration="642000" />
       <workItem from="1745876564300" duration="68000" />
       <workItem from="1745876713362" duration="14000" />
-      <workItem from="1746036099533" duration="176000" />
-    </task>
-    <task id="LOCAL-00022" summary="added vision statement alongside icons">
-      <option name="closed" value="true" />
-      <created>1739740647976</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1739740647976</updated>
+      <workItem from="1746036099533" duration="15103000" />
     </task>
     <task id="LOCAL-00023" summary="added global student network president name">
       <option name="closed" value="true" />
@@ -520,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744913786052</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="modified html contact form&#10;- subject input is now a 4 option input selector">
+      <option name="closed" value="true" />
+      <created>1746041801353</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1746041801354</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

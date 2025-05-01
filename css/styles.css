@@ -12,6 +12,7 @@ body {
     background-color: #F0FAFB;
     font-family: 'Times New Roman', serif;
     align-items: flex-start;
+    overflow-x: hidden;
 }
 .welcome-section {
     display: flex;
@@ -23,19 +24,19 @@ body {
 }
 .navbar {
     z-index: 10;
+    margin-top: 1.5%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
     width: 100%;
     height: 15%;
 }
 .navbar ul {
     display: flex;
     list-style: none;
-    width: 30%;
-    justify-content: space-evenly;
+    width: 75%;
+    justify-content: space-between;
 }
 .navbar ul li a {
     color: white;
@@ -44,8 +45,18 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
+#contact-link-item {
+    margin-top: 1.75%;
+    margin-left: 85%;
+}
+#contact-link-item:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
 .image-background {
+    top: 0;
     position: absolute;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     width: 98%;
@@ -85,7 +96,9 @@ body {
     height: 100vh;
     width: 100%;
     align-items: center;
-    gap: 5%;
+}
+.banner {
+    margin-left: 10%;
 }
 #mission {
     color: #003B5C;
@@ -94,6 +107,7 @@ body {
     font-size: 64px;
     text-align: center;
     width: 70%;
+    margin-left: 5%;
 }
 #mission-statement {
     color: #555555;
@@ -102,6 +116,7 @@ body {
     font-size: 30px;
     text-align: center;
     width: 70%;
+    margin-left: 5%;
 }
 .vision-section {
     display: flex;
@@ -164,14 +179,20 @@ body {
     color: #555555;
 }
 .picture-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    background-color: #D9D9D9;
-    color: black;
+    margin-top: 12.5%;
+    margin-left: 10%;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+.picture-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .quote-box {
+    margin-left: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,6 +203,7 @@ body {
     width: 80%;
 }
 #contact-section {
+    background-color: white;
     width: 100%;
     padding: 60px 0;
     display: flex;
@@ -195,7 +217,6 @@ body {
     margin-bottom: 30px;
     text-align: left;
     width: 80%;
-    max-width: 600px;
 }
 .contact-form {
     display: flex;
@@ -243,7 +264,10 @@ body {
     color: white;
 }
 .error {
+    display: block;
     color: red;
+    font-size: 0.9rem;
+    margin-top: 4px;
 }
 select {
     width: 100%;
@@ -255,16 +279,64 @@ select {
     color: #333;
     font-family: inherit;
 }
-
 select:focus {
     outline: none;
     border-bottom: 2px solid #007BFF; /* or your primary accent */
 }
-
 #value-section {
     width: 100%;
-    height: 10vh;
-    background-color: #003B5C;
+    background-color: #e0f7fa;
+    padding: 1.5rem 0;
+    border-top: 2px solid #3370F6;
+    border-bottom: 2px solid #3370F6;
+    overflow: hidden;
+}
+
+.hashtag-banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 3.5rem; /* Slightly thinner height */
+}
+
+.hashtag-track {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll-left 45s linear infinite;
+}
+
+.hashtag-slide {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #3370F6;
+    letter-spacing: 2px;
+    padding-right: 4rem;
+    white-space: nowrap;
+    margin: 0; /* remove default <p> spacing */
+}
+
+/* Accessibility: visually hidden h2 */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Keyframes for scrolling */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 #miscellaneous-section {
     width: 100%;
@@ -287,97 +359,269 @@ footer {
     font-weight: 400;
     font-family: 'Newsreader', serif;
 }
-/*mobile UI*/
-@media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column; /* Stacks items */
-        text-align: center;
-        width: 90%; /* Expands slightly for smaller screens */
-        padding: 40px 20px; /* Adjust padding */
+
+/* === Medium Screen Responsive Styles (max-width: 1024px) === */
+@media (max-width: 1024px) {
+    /* Picture Box */
+    .picture-box {
+        width: 300px;
+        height: 300px;
+        margin-left: 5%;
+        margin-top: 8%;
     }
 
-    .contact-info,
-    .contact-form-container {
-        max-width: 100%; /* Take full width */
+    /* Hero Text */
+    .hero-text {
+        font-size: 48px;
+    }
+
+    /* Mission Section Text */
+    #mission {
+        font-size: 48px;
+        width: 90%;
+        margin-left: 2%;
+    }
+
+    #mission-statement {
+        font-size: 24px;
+        width: 90%;
+        margin-left: 2%;
+    }
+
+    /* Vision Statement */
+    #vision-statement {
+        font-size: 36px;
+        min-width: 85%;
+        margin-left: 0;
+    }
+
+    /* President Introduction Text */
+    .president-introduction-section h1 {
+        font-size: 48px;
+    }
+
+    .president-introduction-section h2 {
+        font-size: 36px;
+    }
+
+    .president-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .quote-box {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .quote-box p {
+        width: 100%;
+    }
+
+    /* Contact Form */
+    .contact-title {
+        font-size: 32px;
+        width: 100%;
         text-align: center;
     }
 
     .contact-form {
-        max-width: 100%; /* Allows form to expand */
+        width: 95%;
     }
-    .container-2,
-    .vision-container,
-    .president-container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        min-width: 100%;
-    }
-    .picture-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 100%;
-        height: 50%;
-        background-color: #D9D9D9;
-        color: black;
-    }
-    .quote-box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 100%;
-        height: 50%;
-        background-color: #F0FAFB;
-    }
-    .right-side, #vision-statement {
-        max-width: 100%;
 
+    .contact-form input {
+        font-size: 16px;
     }
-    .social-icon, .login-icon {
-        width: 40px;
-        height: 40px;
+
+    /* Hashtag Banner */
+    .hashtag-slide {
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
     }
-    .content-overlay {
-        flex-direction: column; /* Stack logo and icons */
-        align-items: center;
+
+    .navbar ul {
+        width: 60%;
     }
-    .icon-1, .icon-2 {
-        display: none;
+    /* Navbar (if necessary) */
+    .navbar ul li a {
+        font-size: 16px;
     }
-    .banner {
-        display: none;
+
+    /* Adjust Contact link position */
+    #contact-link-item {
+        margin-top: 2.5%;
+        margin-right: 5%;
     }
-    .hero-text {
-        font-size: 36px; /* Reduce text size */
+
+    /* Adjust Icon positions */
+    .icon-1 {
+        transform: translate(150px, -100px);
+        width: 200px;
+        height: auto;
     }
-    #mission {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        font-size: 48px; /* Smaller mission title */
-    }
-    #mission-statement {
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        font-size: 18px; /* Reduce mission text size */
-    }
-    #vision-statement {
-        font-size: 24px; /* Reduce vision text size */
-        margin: auto;
-    }
-    .contact-info h2 {
-        font-size: 36px; /* Smaller heading */
-    }
-    .contact-info p {
-        font-size: 20px; /* Adjust text for readability */
-    }
-    .quote-box p {
-        font-size: 20px;
+
+    .icon-2 {
+        transform: translate(-150px, 120px);
+        width: 200px;
+        height: auto;
     }
 }
+
+
+
+
+/* === Mobile Screen Responsive Styles (max-width: 600px) === */
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Reduce font sizes */
+    .hero-text {
+        font-size: 36px;
+    }
+    .vision-section {
+        height: 70vh;
+    }
+    #vision-statement {
+        font-size: 28px;
+    }
+    .president-introduction-section {
+        height: 45vh;
+    }
+    .president-introduction-section h1 {
+        font-size: 36px;
+    }
+    .president-introduction-section h2 {
+        font-size: 28px;
+    }
+
+    .hashtag-slide {
+        font-size: 0.75rem;
+        letter-spacing: 0.25px;
+    }
+    .hashtag-track {
+        display: flex;
+        white-space: nowrap;
+        animation: scroll-left 45s linear infinite;
+        width: max-content;
+    }
+    #value-section {
+        padding: 0.3rem 0;
+        border-top: 1px solid #3370F6;
+        border-bottom: 1px solid #3370F6;
+    }
+
+    /* Resize picture box */
+    .picture-box {
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+    .quote-box {
+        font-size: 20px;
+    }
+
+    /* Resize and center icons */
+    .icon-1 {
+        transform: translate(120px, -160px);
+        width: 120px;
+    }
+    .icon-2 {
+        transform: translate(-120px, 160px);
+        width: 120px;
+    }
+
+    .mission-section {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+    }
+    .banner {
+        width: 250px;
+    }
+    #mission {
+        font-size: 32px;
+        margin-left: 5%;
+    }
+    #mission-statement {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+    #miscellaneous-section {
+        height: 20vh;
+    }
+
+    /* Hide Instagram logo and contact link */
+    #contact-link-item,
+    .instagram-logo {
+        display: none;
+    }
+
+    /* Hide navbar list */
+    .navbar ul {
+        display: none;
+    }
+
+    /* Show hamburger menu */
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        /*top: 1rem;*/
+        /*right: 1rem;*/
+        cursor: pointer;
+        z-index: 1000;
+        font-size: 2rem;
+        color: white;
+        background: none;
+        border: none;
+        margin-top: 5%;
+        margin-right: -70%;
+    }
+
+    /* Mobile dropdown menu */
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 3.5rem;
+        right: 1rem;
+        background-color: #003B5C;
+        border-radius: 8px;
+        padding: 1rem;
+        z-index: 999;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .mobile-menu.show {
+        display: flex;
+    }
+
+    .mobile-menu a {
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .mobile-menu a:hover {
+        text-decoration: underline;
+    }
+    .gsn-logo {
+        margin-top: 5%;
+        margin-left: -40%;
+    }
+
+}
+
+
+
+
 
 
 
