@@ -491,6 +491,7 @@ footer {
     }
     .vision-section {
         height: 70vh;
+        margin-top: 50px;
     }
     #vision-statement {
         font-size: 28px;
