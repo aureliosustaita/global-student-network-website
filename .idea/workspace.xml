@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="polishing mobile UI" />
+    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="cleaning code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,15 +124,7 @@
       <workItem from="1745182702296" duration="642000" />
       <workItem from="1745876564300" duration="68000" />
       <workItem from="1745876713362" duration="14000" />
-      <workItem from="1746036099533" duration="16402000" />
-    </task>
-    <task id="LOCAL-00026" summary="adapting to mobile">
-      <option name="closed" value="true" />
-      <created>1739764177730</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1739764177730</updated>
+      <workItem from="1746036099533" duration="16768000" />
     </task>
     <task id="LOCAL-00027" summary="adapting to mobile">
       <option name="closed" value="true" />
@@ -516,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746060369591</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="cleaning code">
+      <option name="closed" value="true" />
+      <created>1746060675073</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1746060675073</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added global student network president name" />
     <MESSAGE value="added about page" />
     <MESSAGE value="adapting to mobile" />
     <MESSAGE value="created media directory to hold all images&#10;deleted unnecessary html files" />
@@ -559,6 +560,7 @@
     <MESSAGE value="added mobile screen size UI&#10;added medium screen size UI" />
     <MESSAGE value="added mobile screen size UI" />
     <MESSAGE value="polishing mobile UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="polishing mobile UI" />
+    <MESSAGE value="cleaning code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaning code" />
   </component>
 </project>
