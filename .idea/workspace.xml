@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="added mobile screen size UI" />
+    <list default="true" id="809eb4a7-6fd1-4be0-b24e-2f33c9bc36d0" name="Changes" comment="polishing mobile UI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,15 +122,7 @@
       <workItem from="1745182702296" duration="642000" />
       <workItem from="1745876564300" duration="68000" />
       <workItem from="1745876713362" duration="14000" />
-      <workItem from="1746036099533" duration="16077000" />
-    </task>
-    <task id="LOCAL-00025" summary="adapting to mobile">
-      <option name="closed" value="true" />
-      <created>1739763942432</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1739763942432</updated>
+      <workItem from="1746036099533" duration="16402000" />
     </task>
     <task id="LOCAL-00026" summary="adapting to mobile">
       <option name="closed" value="true" />
@@ -516,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746060208470</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="polishing mobile UI">
+      <option name="closed" value="true" />
+      <created>1746060369590</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1746060369591</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +534,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added vision statement alongside icons" />
     <MESSAGE value="added global student network president name" />
     <MESSAGE value="added about page" />
     <MESSAGE value="adapting to mobile" />
@@ -559,6 +558,7 @@
     <MESSAGE value="modified html contact form&#10;- subject input is now a 4 option input selector" />
     <MESSAGE value="added mobile screen size UI&#10;added medium screen size UI" />
     <MESSAGE value="added mobile screen size UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mobile screen size UI" />
+    <MESSAGE value="polishing mobile UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="polishing mobile UI" />
   </component>
 </project>
